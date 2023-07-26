@@ -1,0 +1,69 @@
+@media screen and (max-width: 1000px) {
+    p {
+        font-size: 0.9rem;
+        line-height: 1.8rem;
+    }
+
+    .grid-3 {
+        gap: 1rem;
+    }
+}
+
+
+
+@media screen and (max-width: 850px) {
+:root{
+    --sectionPadding: 4rem 0;
+}
+
+.section-title {
+    font-size: 1.6rem;
+    margin: 0.6rem 0 2.5rem;
+}
+
+.pre-title {
+    font-size: 0.8rem;
+}
+/* hero section */
+#hero {
+    grid-template-columns: 1fr;
+    height: fit-content;
+}
+
+.hero-right {
+    order: 1;
+}
+
+.hero-left {
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.hero-left .pre-title {
+    margin: 0 auto;
+}
+
+.hero-name {
+    font-size: 2.3rem;
+    margin-bottom: 0.5rem;
+
+}
+
+/* footer section */
+footer {
+    padding: 2rem 0;
+}
+}
+
+
+@media screen and (max-width: 640px) {
+/* titles */
+.section-title {
+    font-size: 1.3rem;
+}
+.pre-title {
+    font-size: 0.7rem;
+    
+}
+}
+    
